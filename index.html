@@ -1,58 +1,91 @@
 <!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Legacy Cyber Attack — Article PDF</title>
-  <style>
-    body {
-      font-family: system-ui, sans-serif;
-      max-width: 900px;
-      margin: 2rem auto;
-      padding: 1rem;
-      background: #f7f7fb;
-      line-height: 1.6;
-    }
-    header {
-      background: linear-gradient(90deg,#1f2937,#3b82f6);
-      color: white;
-      padding: 1.25rem;
-      border-radius: 10px;
-    }
-    .viewer {
-      margin-top: 1rem;
-      border-radius: 8px;
-      overflow: hidden;
-      box-shadow: 0 8px 30px rgba(0,0,0,0.06);
-    }
-    a.button {
-      display:inline-block;
-      padding:.6rem .9rem;
-      margin-top:.5rem;
-      border-radius:8px;
-      text-decoration:none;
-      font-weight:600;
-      background:#111827;
-      color:white;
-    }
-    a.secondary {
-      background:transparent;
-      border:1px solid rgba(0,0,0,0.08);
-      color:#111827;
-    }
-  </style>
+padding: 0.5rem 1rem;
+border-radius: 6px;
+background-color: #e2e8f0;
+}
+nav a:hover {
+background-color: #3b82f6;
+color: white;
+}
+section {
+margin-top: 2rem;
+}
+h2 {
+color: #0f172a;
+border-bottom: 2px solid #3b82f6;
+padding-bottom: 0.25rem;
+}
+.card {
+background: white;
+padding: 1rem;
+border-radius: 8px;
+box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+margin-bottom: 1rem;
+}
+footer {
+margin-top: 2rem;
+padding: 1rem;
+background: #0f172a;
+color: white;
+text-align: center;
+border-radius: 10px;
+}
+</style>
 </head>
 <body>
-  <header>
-    <h1>Legacy Cyber Attack — Article PDF</h1>
-    <p>A humorous deep-dive into vintage cyber threats.</p>
-  </header>
+<header>
+<h1>Modern Cybersecurity Insights</h1>
+<p>Stay ahead with the latest strategies, tools, and news in cybersecurity.</p>
+</header>
 
-  <a class="button" href="legacy_cyber_attack_article.pdf" download>Download PDF</a>
 
-  <div class="viewer">
-    <iframe src="legacy_cyber_attack_article.pdf" width="100%" height="700" style="border:0;"></iframe>
-  </div>
+<nav>
+<a href="#threats">Threats</a>
+<a href="#best-practices">Best Practices</a>
+<a href="#resources">Resources</a>
+</nav>
 
+
+<section id="threats">
+<h2>Current Threat Landscape</h2>
+<div class="card">
+<h3>Ransomware Attacks</h3>
+<p>Ransomware continues to target enterprises, encrypting critical data and demanding large payouts. Modern defense requires layered strategies including endpoint detection, backups, and employee training.</p>
+</div>
+<div class="card">
+<h3>Phishing & Social Engineering</h3>
+<p>Attackers increasingly use sophisticated social engineering campaigns to exploit human vulnerabilities. Multi-factor authentication and awareness programs are key defenses.</p>
+</div>
+</section>
+
+
+<section id="best-practices">
+<h2>Cybersecurity Best Practices</h2>
+<div class="card">
+<h3>Zero Trust Architecture</h3>
+<p>Adopting a Zero Trust approach minimizes risks by continuously verifying users and devices and segmenting access to critical systems.</p>
+</div>
+<div class="card">
+<h3>Regular Patch Management</h3>
+<p>Keeping software and systems up to date is essential to mitigate exploits targeting known vulnerabilities.</p>
+</div>
+</section>
+
+
+<section id="resources">
+<h2>Helpful Resources</h2>
+<div class="card">
+<ul>
+<li><a href="https://www.cisa.gov/" target="_blank">CISA - Cybersecurity & Infrastructure Security Agency</a></li>
+<li><a href="https://www.nist.gov/cyberframework" target="_blank">NIST Cybersecurity Framework</a></li>
+<li><a href="https://www.sans.org/" target="_blank">SANS Institute</a></li>
+</ul>
+</div>
+</section>
+
+
+<footer>
+<p>&copy; 2025 Modern Cybersecurity Insights. All rights reserved.</p>
+</footer>
 </body>
 </html>
